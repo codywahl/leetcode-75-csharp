@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/codywahl/Dev/personal/leetcode-75-csharp/Leetcode75.Solutions/Leetcode75.Solutions.csproj",
-      "projectName": "Leetcode75.Solutions",
-      "projectPath": "/Users/codywahl/Dev/personal/leetcode-75-csharp/Leetcode75.Solutions/Leetcode75.Solutions.csproj",
+      "projectUniqueName": "/Users/codywahl/Dev/personal/leetcode-75-csharp/LeetCode75.Solutions/LeetCode75.Solutions.csproj",
+      "projectName": "LeetCode75.Solutions",
+      "projectPath": "/Users/codywahl/Dev/personal/leetcode-75-csharp/LeetCode75.Solutions/LeetCode75.Solutions.csproj",
       "packagesPath": "/Users/codywahl/.nuget/packages/",
-      "outputPath": "/Users/codywahl/Dev/personal/leetcode-75-csharp/Leetcode75.Solutions/obj/",
+      "outputPath": "/Users/codywahl/Dev/personal/leetcode-75-csharp/LeetCode75.Solutions/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/codywahl/.nuget/NuGet/NuGet.Config"

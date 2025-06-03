@@ -1,3 +1,6 @@
 {
-    "dotnet.defaultSolution": "Leetcode75.sln"
+    "dotnet.defaultSolution": "LeetCode75.sln",
+    "cSpell.words": [
+        "Xunit"
+    ]
 }
