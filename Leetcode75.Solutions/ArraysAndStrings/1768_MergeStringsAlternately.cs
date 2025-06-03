@@ -1,12 +1,12 @@
 using System.Text;
 
-namespace LeetCode75.Solutions
+namespace LeetCode75.Solutions.ArraysAndStrings
 {
-    public class Solution
+    public static class Solution1768
     {
-        public string MergeAlternately(string word1, string word2)
+        public static string MergeAlternately(string word1, string word2)
         {
-            StringBuilder sb = new StringBuilder();
+            StringBuilder sb = new();
             int newStringLength = word1.Length + word2.Length;
 
             for (int i = 0; i < newStringLength; i++)

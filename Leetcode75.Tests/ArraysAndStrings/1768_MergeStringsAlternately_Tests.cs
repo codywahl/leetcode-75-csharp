@@ -1,9 +1,9 @@
 using Xunit;
-using LeetCode75.Solutions;
+using LeetCode75.Solutions.ArraysAndStrings;
 
 // cspell: ignore apbqcr apbqrs apbqcd pqrs pq
 
-namespace LeetCode75.Tests
+namespace LeetCode75.Tests.ArraysAndStrings
 {
     public class MergeStringsAlternately_Tests
     {
@@ -13,8 +13,8 @@ namespace LeetCode75.Tests
             var expected = "apbqcr";
             var string1 = "abc";
             var string2 = "pqr";
-            var solution = new Solution();
-            var result = solution.MergeAlternately(string1, string2);
+
+            var result = Solution1768.MergeAlternately(string1, string2);
             Assert.Equal(expected, result);
         }
 
@@ -24,8 +24,8 @@ namespace LeetCode75.Tests
             var expected = "apbqrs";
             var string1 = "ab";
             var string2 = "pqrs";
-            var solution = new Solution();
-            var result = solution.MergeAlternately(string1, string2);
+
+            var result = Solution1768.MergeAlternately(string1, string2);
             Assert.Equal(expected, result);
         }
 
@@ -35,8 +35,8 @@ namespace LeetCode75.Tests
             var expected = "apbqcd";
             var string1 = "abcd";
             var string2 = "pq";
-            var solution = new Solution();
-            var result = solution.MergeAlternately(string1, string2);
+
+            var result = Solution1768.MergeAlternately(string1, string2);
             Assert.Equal(expected, result);
         }
     }
