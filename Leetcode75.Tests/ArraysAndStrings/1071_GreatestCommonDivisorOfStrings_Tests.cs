@@ -3,7 +3,7 @@ using LeetCode75.Solutions.ArraysAndStrings;
 
 // cspell: ignore ABCABC ABC ABABAB
 
-namespace LeetCode75.Solutions.ArraysAndStrings;
+namespace LeetCode75.Tests.ArraysAndStrings;
 
 public class GCDOfStrings_Tests
 {
