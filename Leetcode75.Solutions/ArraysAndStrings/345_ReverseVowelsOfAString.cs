@@ -10,6 +10,7 @@ public class Solution345
         {
             throw new ArgumentException("Invalid input: s must be a non-empty string with length between 1 and 300,000");
         }
+
         var vowels = "aeiouAEIOU";
         var chars = s.ToCharArray();
 
