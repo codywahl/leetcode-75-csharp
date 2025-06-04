@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "/Users/codywahl/Dev/personal/leetcode-75-csharp/Leetcode75.Tests/Leetcode75.Tests.csproj": {}
+    "/Users/codywahl/Dev/personal/leetcode-75-csharp/LeetCode75.Tests/LeetCode75.Tests.csproj": {}
   },
   "projects": {
     "/Users/codywahl/Dev/personal/leetcode-75-csharp/LeetCode75.Solutions/LeetCode75.Solutions.csproj": {
@@ -63,14 +63,14 @@
         }
       }
     },
-    "/Users/codywahl/Dev/personal/leetcode-75-csharp/Leetcode75.Tests/Leetcode75.Tests.csproj": {
+    "/Users/codywahl/Dev/personal/leetcode-75-csharp/LeetCode75.Tests/LeetCode75.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/codywahl/Dev/personal/leetcode-75-csharp/Leetcode75.Tests/Leetcode75.Tests.csproj",
-        "projectName": "Leetcode75.Tests",
-        "projectPath": "/Users/codywahl/Dev/personal/leetcode-75-csharp/Leetcode75.Tests/Leetcode75.Tests.csproj",
+        "projectUniqueName": "/Users/codywahl/Dev/personal/leetcode-75-csharp/LeetCode75.Tests/LeetCode75.Tests.csproj",
+        "projectName": "LeetCode75.Tests",
+        "projectPath": "/Users/codywahl/Dev/personal/leetcode-75-csharp/LeetCode75.Tests/LeetCode75.Tests.csproj",
         "packagesPath": "/Users/codywahl/.nuget/packages/",
-        "outputPath": "/Users/codywahl/Dev/personal/leetcode-75-csharp/Leetcode75.Tests/obj/",
+        "outputPath": "/Users/codywahl/Dev/personal/leetcode-75-csharp/LeetCode75.Tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/codywahl/.nuget/NuGet/NuGet.Config"
