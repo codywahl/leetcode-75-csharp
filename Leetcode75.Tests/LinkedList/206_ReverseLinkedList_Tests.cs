@@ -41,8 +41,6 @@ public class ReverseLinkedListTests
     public void Test3()
     {
         ListNode? head = null;
-        ListNode? expected = null;
-
         var result = _solution.ReverseList(head);
 
         Assert.Null(result);
