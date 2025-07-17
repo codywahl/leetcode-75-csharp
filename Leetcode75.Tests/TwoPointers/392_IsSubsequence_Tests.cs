@@ -7,7 +7,7 @@ namespace LeetCode75.Tests.TwoPointers;
 
 public class IsSubsequenceTests
 {
-    private readonly Solution _solution = new();
+    private readonly Solution392 _solution = new();
 
     [Theory]
     [InlineData("abc", "ahbgdc", true)]

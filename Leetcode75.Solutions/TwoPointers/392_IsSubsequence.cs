@@ -1,6 +1,6 @@
 namespace LeetCode75.Solutions.TwoPointers;
 
-public class Solution
+public class Solution392
 {
     public bool IsSubsequence(string s, string t)
     {
