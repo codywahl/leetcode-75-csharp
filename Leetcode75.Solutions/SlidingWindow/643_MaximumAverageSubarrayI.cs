@@ -11,7 +11,7 @@ public class Solution643
             return 0.0; // Invalid input
         }
 
-        double currentSum = 0.0;
+        int currentSum = 0;
 
         // Calculate the sum of the first 'k' elements
         for (int i = 0; i < k; i++)
@@ -19,19 +19,13 @@ public class Solution643
             currentSum += nums[i];
         }
 
-        double maxAverage = currentSum / k;
+        double maxAverage = (double)currentSum / k;
 
         // Slide the window across the array
         for (int i = k; i < nums.Length; i++)
         {
-            double previousSum = currentSum;
             currentSum += nums[i] - nums[i - k]; // Add new element and remove the oldest one
-
-            if (currentSum > previousSum)
-            {
-                // If the new sum is greater, update maxAverage
-                maxAverage = currentSum / k;
-            }
+            maxAverage = Math.Max(maxAverage, (double)currentSum / k);
         }
 
         return maxAverage;
