@@ -14,15 +14,15 @@ public class Solution1493
             {
                 if (lastZeroIndex != -1)
                 {
+                    maxLength = Math.Max(maxLength, right - left - 1);
                     left = lastZeroIndex + 1;
                 }
 
                 lastZeroIndex = right;
             }
-
-            maxLength = Math.Max(maxLength, right - left);
         }
 
+        maxLength = Math.Max(maxLength, nums.Length - left - 1);
         return maxLength;
     }
 }
